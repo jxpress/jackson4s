@@ -1,9 +1,10 @@
 package net.jxpress.jackson4s
 
-import org.joda.time.DateTime
+
 
 object Sample {
 
+  import org.joda.time.DateTime
 
   case class Author (
                     firstName : String,
